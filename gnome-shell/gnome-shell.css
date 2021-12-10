@@ -1191,7 +1191,7 @@ StScrollBar {
 
 /* Top Bar */
 #panel {
-  background-color: #232121;
+  background-color: #000000;
   font-weight: bold;
   height: 1.86em;
   font-feature-settings: "tnum"; }
@@ -1205,7 +1205,7 @@ StScrollBar {
     spacing: 6px; }
   #panel .panel-corner {
     -panel-corner-radius: 5px;
-    -panel-corner-background-color: #232121;
+    -panel-corner-background-color: #000000;
     -panel-corner-border-width: 2px;
     -panel-corner-border-color: transparent; }
   #panel .panel-button {
@@ -1265,7 +1265,7 @@ StScrollBar {
   background-color: transparent; }
 
 #overview.cosmic-solid-bg {
-  background-color: #36322f; }
+  background-color: #000000; }
 
 .overview-controls {
   padding-bottom: 32px; }
@@ -2161,8 +2161,8 @@ StScrollBar {
 /* Pop_OS COSMIC Dock styling, append !important to any changed rules */
 .cosmic-dock #dock {
   border-radius: 12px 12px 12px 12px !important;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  background-color: #33302F;
+  border: 1px solid #000;
+  background-color: #000;
   margin: 4px !important; }
 
 .cosmic-dock.extended #dock {
